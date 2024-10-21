@@ -1,0 +1,21 @@
+/* Add the spotlight CSS style with animation */
+.spotlight {
+    background-image: radial-gradient(circle, transparent 0%, rgba(105, 109, 105, 0.5) 40%,  60%, #0b011d 100%);
+    background-position: center;
+    background-size: 150% 150%;
+    animation: pulsate 1.5s ease-in-out infinite;
+  }
+  
+  /* Define the animation keyframes */
+  @keyframes pulsat {
+    0% {
+      background-size: 150% 150%;
+    }
+    50% {
+      background-size: 160% 160%;
+    }
+    100% {
+      background-size: 150% 150%;
+    }
+  }
+  

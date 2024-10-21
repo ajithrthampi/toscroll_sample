@@ -1,0 +1,13 @@
+:root {
+    --cards: 5;
+    --cardHeight: 87vh;
+    --cardTopPadding: 1.5em;
+    --cardMargin: 4vw
+}
+
+.cards {
+    position: sticky;
+    top: 0;
+    padding-top: calc(var(--index) * var(--cardTopPadding));
+   
+}
