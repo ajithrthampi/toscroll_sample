@@ -6,9 +6,9 @@ import ContextStep from './components/context/ContextStep.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <ContextStep>
-      <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>,
   </ContextStep>
 
 )

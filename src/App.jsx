@@ -15,7 +15,7 @@ function App() {
         setLoading(true)
         setTimeout(() => {
             setLoading(false)
-        },6000);
+        },0);
     }, [])
 
     return (
@@ -39,8 +39,6 @@ function App() {
                 <img className='w-36' src={logoo} alt="" />
               </motion.p>
             </div> : <div>
-               
-               
                 <Homepage/>
             </div>
         } </>

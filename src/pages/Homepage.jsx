@@ -1,4 +1,4 @@
-import React, {useCallback} from 'react'
+import React, { useCallback } from 'react'
 import LogoPage1 from '../components/homecontent/logopage/LogoPage1'
 import Navbar from '../components/navbar/Navbar'
 import WinningZesdro from '../components/homecontent/winning/WinningZesdro'
@@ -9,7 +9,8 @@ import ProjectRequest from '../components/homecontent/projectRequest/ProjectRequ
 import ZesdroServices from '../components/homecontent/service/ZesdroServices'
 import ParticleBackground from '../components/particle/ParticleBackground'
 import Particles from 'react-tsparticles';
-import {loadSlim} from "tsparticles-slim";
+import { loadSlim } from "tsparticles-slim";
+import Works from '../components/homecontent/works/Works'
 
 
 const Homepage = () => {
@@ -25,17 +26,17 @@ const Homepage = () => {
     return (
         <>
             <div>
-                    <LogoPage1/>
-                    <WinningZesdro/>
-                        <ZesdroServices/>
-                        <Benifits/>
-                    <Process/>
-                    <Faqs/>
-                    <ProjectRequest/>
-
+                <LogoPage1 />
+                <WinningZesdro />
+                <ZesdroServices />
+                <Benifits />
+                <Works />
+                <Process />
+                <Faqs />
+                <ProjectRequest />
             </div>
             <div className='fixed bottom-6 z-50'>
-                <Navbar/>
+                <Navbar />
             </div>
 
         </>
